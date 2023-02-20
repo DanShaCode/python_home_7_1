@@ -1,6 +1,6 @@
 
 def counter_vowel(frase_list):
-    vowel_list = ['а','о','э','е','и','ы','у','ё','ю','я']
+    vowel_list = ['а','о','э','е','и','ы','у','ё','ю','я','А','О','Э','Е','И','Ы','У','Ё','Ю','Я']
     vowel_counter = 0
     for frase in frase_list:
         for char in frase:
